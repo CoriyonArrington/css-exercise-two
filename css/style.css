@@ -1,6 +1,48 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #7FDBFF;
+  color: #111111;
+  font-family: 'Avenir'; Arial, san-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+figcaption {
+  font-size: .80em;
+  width: 37.5em;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 3em;
+  width: 100%;
+  line-height: 2;
+}
+
+h3 {
+  font-size: 1.25em;
+  width: 90%;
+  margin-bottom: 1.2em;
+  font-family: 'Raleway'; Arial; san-serif;
+}
+
+h5 {
+  font-size: 0.80em;
+  width: 90%;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  width: 37.5em;
+  margin-bottom: 1.2em;
 }
 
 nav {
@@ -15,17 +57,14 @@ nav {
   width: 100px;
 }
 
-.large-pic {
-  width: 100%;
-}
-
 .medium-pic {
-  width: 70%;
+  width: 85%;
 }
 
 .left, .right {
   float: left;
   width: 50%;
+  color: #ffffff;
 }
 
 .right {

@@ -7,9 +7,14 @@ body {
   text-align: left;
 }
 
-a:hover {
-  text-decoration: none;
+a {
   color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+
+  color: #7FDBFF;
 }
 
 figcaption {
@@ -50,6 +55,7 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+  top: 0;
 }
 
 .logo {
